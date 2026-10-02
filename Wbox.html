@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox</title>
+
+        <style>
+            #main {
+                display: flex;
+                background-color: gray;
+                align-items: center; /*Align flex items on the Y axis by by default*/
+                justify-content: center; /*Align flex items on the X axis by default*/
+                gap: 50px;
+                /* flex-direction: column; default value */
+            }
+            .child-el1 {
+                background-color: #00d5ff;
+                height: 100px;
+            }
+            .child-el2 {
+                background-color: #00ff73;
+            }
+            .child-el3 {
+                background-color: rgb(191, 129, 255);
+            }
+            .child-el4 {
+                background-color: rgb(239, 230, 139);
+            }
+            .child-el5 {
+                background-color: rgb(129, 239, 197);
+            }
+        </style>
+    </head>
+
+    <body>
+       
+    <div id="main">
+            <div class="child-el1">My first box</div>
+            <div class="child-el2">My second box</div>
+            <div class="child-el3">My third box</div>
+            <div class="child-el4">My fourth box</div>
+        </div>
+    </body>
+</html>
